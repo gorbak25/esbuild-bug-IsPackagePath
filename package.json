@@ -1,0 +1,12 @@
+{
+  "license": "MIT",
+  "scripts": {
+        "show-bug": "esbuild app/a.ts --outfile=bug.js --platform=node --format=cjs --bundle --packages=external; node bug.js",
+        "show-working": "ts-node app/a.ts"
+    },
+  "dependencies": {
+    "esbuild": "^0.17.12",
+    "ts-node-paths": "^1.0.1",
+    "typescript": "^5.0.2"
+  }
+}
