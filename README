@@ -1,0 +1,6 @@
+
+```
+yarn run show-working # Works in ts-node
+yarn run show-bug # Shows that esbuild fails 
+```
+
